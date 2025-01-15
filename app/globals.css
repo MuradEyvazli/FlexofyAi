@@ -1,0 +1,46 @@
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Tailwind veya diğer global CSS kurallarınız */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transition-duration: 500ms;
+}
+.perspective {
+  perspective: 1200px; /* Daha derin bir perspektif için artırıldı */
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.relative {
+  position: relative;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.shadow-lg {
+  transition: box-shadow 0.3s ease;
+}
+.bg-gray-800 {
+  background-color: #2d3748;
+}
+
+.text-green-400 {
+  color: #68d391;
+}
+
+
+
+
+
+
